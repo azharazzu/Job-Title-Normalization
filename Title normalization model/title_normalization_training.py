@@ -38,6 +38,14 @@ model = Seq2SeqModel(
     use_cuda=False,
 )
 
+df=pd.read_csv("training_data.csv")
+df.dropna(inplace=True)
+df=df.sample(frac=1)
+df.reset_index(drop=True,inplace=True)
+df.head()
+
+train_df=df.iloc[:115470]
+eval_df=df.iloc[115470:]
 
 model.train_model(
     train_df, eval_data=eval_df, matches=count_matches
