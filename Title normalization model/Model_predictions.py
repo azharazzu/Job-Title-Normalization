@@ -36,7 +36,7 @@ model_args.silent=True
 
 model = Seq2SeqModel(
     encoder_decoder_type="bart",
-    encoder_decoder_name="/home/ec2-user/SageMaker/title_normalization/outputs/checkpoint-3610-epoch-2",
+    encoder_decoder_name="https://talentprofile.s3.amazonaws.com/data-science-model/checkpoint-3610-epoch-2/",
     args=model_args,
     use_cuda=False,
 )
