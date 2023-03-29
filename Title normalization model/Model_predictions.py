@@ -13,6 +13,8 @@ from simpletransformers.seq2seq import (
 )
 from tqdm import tqdm
 
+model_path = "https://talentprofile.s3.amazonaws.com/data-science-model/checkpoint-3610-epoch-2/"
+
 def count_matches(labels, preds):
     print(labels)
     print(preds)
@@ -36,7 +38,7 @@ model_args.silent=True
 
 model = Seq2SeqModel(
     encoder_decoder_type="bart",
-    encoder_decoder_name="https://talentprofile.s3.amazonaws.com/data-science-model/checkpoint-3610-epoch-2/",
+    encoder_decoder_name= model_path,
     args=model_args,
     use_cuda=False,
 )
