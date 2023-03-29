@@ -9,6 +9,8 @@ from simpletransformers.seq2seq import (
     Seq2SeqArgs,
 )
 
+Data_path = "../Data"
+data = os.join.path(Data_path, "training_data.csv")
 
 logging.basicConfig(level=logging.INFO)
 transformers_logger = logging.getLogger("transformers")
