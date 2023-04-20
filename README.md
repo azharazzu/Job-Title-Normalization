@@ -2,7 +2,7 @@
     The job title normalization service used to convert raw job title into Standard job title.
     
 ## Contents
-- [Project Structure](#project-structure)
+- [Application Description](#Application-Description)
 - [Configuration Changes](#configuration-changes)
 - [Cloning Repo For Local Development](#cloning-repo-for-local-development)
 - [Deployment Details](#deployment-details)
