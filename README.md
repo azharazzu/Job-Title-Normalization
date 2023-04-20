@@ -13,10 +13,6 @@ Python, Simple transformers, Flask
 
 Need to ask @Venky Thiru  about it
 
-## **GitHub Repo**
-
-[https://github.com/TalentInc/Job-Title-Normalizatin](https://github.com/TalentInc/Job-Title-Normalizatin)
-
 ## **App URL**
 
 [](https://resume-parser.resume.io/parse)
@@ -27,7 +23,8 @@ No
 
 ## Information
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/743119fc-86a1-490f-a119-a5ec4dcdd342/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/101692969/233233319-35c8a7a1-0b4a-4274-82bf-83003e35b018.png)
+
 
 1. For Job title normalization service we took LinkedIn data.
 2. In First stage of cleaning we removed all kind of punctuations, emojis, Non-English words and removed all duplicates from the data.
