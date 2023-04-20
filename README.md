@@ -2,14 +2,14 @@
     The job title normalization service used to convert raw job title into Standard job title.
     
 ## Contents
-    - [Application description](#Application description)
-    - [Technology Used](#Technology Used)
-    - [App URL](#App URL)
-    - [High level Information](#High level Information)
-    - [Input](#Input)
-    - [Output](#Output)
-    - [Example](#Example)
-    - [Deployment Process](#Deployment Process)
+- [Application description](#Application description)
+- [Technology Used](#Technology Used)
+- [App URL](#App URL)
+- [High level Information](#High level Information)
+- [Input](#Input)
+- [Output](#Output)
+- [Example](#Example)
+- [Deployment Process](#Deployment Process)
 
 ##                                                 **Application description**
 
