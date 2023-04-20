@@ -6,10 +6,7 @@
 - [Technology Used](#Technology Used)
 - [App URL](#App URL)
 - [High level Information](#High level Information)
-- [Input](#Input)
-- [Output](#Output)
-- [Example](#Example)
-- [Deployment Process](#Deployment Process)
+
 
 ##                                                 **Application description**
 
