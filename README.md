@@ -53,15 +53,15 @@ Examples:
 2. sr. Data Scientist =⇒ Data Scientist
 3. $4+*Software Developer%&^ =⇒ Software Developer
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d56db7cd-cac6-4839-a325-b08b1fb08568/Untitled.png)
+![Untitled (1)](https://user-images.githubusercontent.com/101692969/233233518-94333135-471a-41d2-8cb8-0a0c1cdeb669.png)
 
 ## Example
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/584a0543-1256-4161-a8d2-91f9cdffdda3/Untitled.png)
+![Untitled (2)](https://user-images.githubusercontent.com/101692969/233233621-3ace3709-05aa-4f72-8cf3-f8804a242077.png)
 
 Use a Token for authorization
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02f08426-7e10-4c9d-ac80-e9d25da02647/Untitled.png)
+![Untitled (3)](https://user-images.githubusercontent.com/101692969/233233672-ec979413-ef12-4ef1-9c0f-e4b7f9aeea18.png)
 
 ## Deployment Process
 
