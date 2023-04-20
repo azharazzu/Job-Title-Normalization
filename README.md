@@ -1,16 +1,19 @@
 #                                                 Job-Title-Normalizatin
     The job title normalization service used to convert raw job title into Standard job title.
+    
+## Contents
+    - [Application description](#Application description)
+    - [Technology Used](#Technology Used)
+    - [App URL](#App URL)
+    - [High level Information](#High level Information)
+    - [Input](#Input)
+    - [Output](#Output)
+    - [Example](#Example)
+    - [Deployment Process](#Deployment Process)
 
 ##                                                 **Application description**
 
 The job title normalization service used to convert raw job title into normalized job title which remove all unwanted(Url, Numbers, Special characters) and meaning less words from raw title and produce stander title.
-
-## Contents
-- [Project Structure](#project-structure)
-- [Configuration Changes](#configuration-changes)
-- [Cloning Repo For Local Development](#cloning-repo-for-local-development)
-- [Deployment Details](#deployment-details)
-- [Contact Details](#contact-details)
 
 ## **Technology Used**
 
@@ -28,7 +31,7 @@ Need to ask @Venky Thiru  about it
 
 No
 
-## Information
+## High level Information
 
 ![Untitled](https://user-images.githubusercontent.com/101692969/233233319-35c8a7a1-0b4a-4274-82bf-83003e35b018.png)
 
