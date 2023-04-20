@@ -1,8 +1,20 @@
 #                                                 Job-Title-Normalizatin
     The job title normalization service used to convert raw job title into Standard job title.
     
-    ## Contents
+## Contents
+- [Project Structure](#project-structure)
+- [Configuration Changes](#configuration-changes)
+- [Cloning Repo For Local Development](#cloning-repo-for-local-development)
+- [Deployment Details](#deployment-details)
+- [Contact Details](#contact-details)
 - [Application description](#Application description)
+- [Technology Used](#Technology Used)
+- [App URL](#App URL)
+- [High level Information](#High level Information)
+- [Input](#Input)
+- [Output](#Output)
+- [Example](#Example)
+- [Deployment Process](#Deployment Process)
 
 
 ##                                                 **Application description**
