@@ -3,19 +3,13 @@
     
 ## Contents
 - [Application Description](#Application-Description)
-- [Configuration Changes](#configuration-changes)
-- [Cloning Repo For Local Development](#cloning-repo-for-local-development)
-- [Deployment Details](#deployment-details)
-- [Contact Details](#contact-details)
-- (#KSNDLKSDF)
-- [Application description](#Application-description)
 - [Technology Used](#Technology-Used)
-- [App URL](#App URL)
-- [High level Information](#High level Information)
+- [App URL](#App-URL)
+- [High level Information](#High-level-Information)
 - [Input](#Input)
 - [Output](#Output)
 - [Example](#Example)
-- [Deployment Process](#Deployment Process)
+- [Deployment Process](#Deployment-Process)
 
 
 ##                                                 **Application description**
@@ -72,7 +66,7 @@ Examples:
 
 ![Untitled (1)](https://user-images.githubusercontent.com/101692969/233233518-94333135-471a-41d2-8cb8-0a0c1cdeb669.png)
 
-## Example
+## High level Information
 
 ![Untitled (2)](https://user-images.githubusercontent.com/101692969/233233621-3ace3709-05aa-4f72-8cf3-f8804a242077.png)
 
