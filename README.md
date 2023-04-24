@@ -8,7 +8,7 @@ The job title normalization service used to convert raw job title into standard 
 - [Methodology](#Methodology)
 - [Input](#Input)
 - [Output](#Output)
-- [Postman API](#Postman API)
+- [Postman API](#Postman-API)
 - [Deployment Process](#Deployment-Process)
 
 
