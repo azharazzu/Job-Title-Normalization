@@ -50,7 +50,6 @@ No
 ## Output
 - Standard job title
 
-![Untitled (1)](https://user-images.githubusercontent.com/101692969/233233518-94333135-471a-41d2-8cb8-0a0c1cdeb669.png)
 
 ## Postman API
 
