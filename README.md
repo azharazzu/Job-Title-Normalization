@@ -1,5 +1,5 @@
 #                                                 Job-Title-Normalizatin
-    The job title normalization service used to convert raw job title into Standard job title.
+The job title normalization service used to convert raw job title into standard job title. The developed model remove all unwanted/unnecessary things such as punctuations, emojis, company names, location names from the raw title. Model can expand short abbreviations into relevant form such as Jr into Junior, Sr into Senior, Vp into Vice president etc. For training the model almost 170 million data is used which involve the preprocessing and manual efforts.
     
 ## Contents
 - [Application Description](#Application-Description)
