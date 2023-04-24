@@ -1,13 +1,14 @@
-#                                                 Job-Title-Normalizatin
+#                                                ** Job-Title-Normalizatin **
 The job title normalization service used to convert raw job title into standard job title. The developed model remove all unwanted/unnecessary things such as punctuations, emojis, company names, location names from the raw title. Model can expand short abbreviations into relevant form such as Jr into Junior, Sr into Senior, Vp into Vice president etc. For training the model almost 170 million data is used which involve the preprocessing and manual efforts.
     
 ## Contents
 - [Application Description](#Application-Description)
 - [Technology Used](#Technology-Used)
 - [App URL](#App-URL)
-- [High level Information](#High-level-Information)
+- [Methodology](#Methodology)
 - [Input](#Input)
 - [Output](#Output)
+- [Postman API](#Postman API)
 - [Deployment Process](#Deployment-Process)
 
 
@@ -21,7 +22,7 @@ Python, Simple transformers, Flask
 
 ## **Business model**
 
-Need to ask @Venky Thiru  about it
+Each user have different ways of writing about the same thing, with the help of job title normalization each title can be converted into one of the standard output title which can be further used for job recommendation or career pathway model.
 
 ## **App URL**
 
@@ -31,41 +32,27 @@ Need to ask @Venky Thiru  about it
 
 No
 
-## High level Information
+## Methodology
 
 ![Untitled](https://user-images.githubusercontent.com/101692969/233233319-35c8a7a1-0b4a-4274-82bf-83003e35b018.png)
 
 
-1. For Job title normalization service we took LinkedIn data.
-2. In First stage of cleaning we removed all kind of punctuations, emojis, Non-English words and removed all duplicates from the data.
-3. Took EMSI 70k semi standard job title as a reference and did cosine similarity with TFIDF vectorization on cleaned LinkedIn data and filtered all raw job titles.
-4. Manually labeled for preparing the training data for building the job title normalization model.
-5. For Building the job title normalization model we took Facebook Bart transformer(Large) which works on the philosophy of encoder and decoder.
-6. 
+1. 170 Million linked in usa profile data is used to train the model.
+2. Preprocessing involves the emojis, Stop-Words, non english titles and duplicates removal.
+3. After preprocessing by choosing a threshold value of 500, approximate 100k unique raw titles were obtained.
+4. On these 100k raw titles manual output labelling is done which gives us approximate 60k standard titles.
+5. Facebook bart large model is trained on these 100k dataset and the loss value was around 0.02.
+6. Streamlit and postman api is developed in which the input is raw title and output is standard    title
 
 ## Input
-
 - Raw text job title
-    
-    Example: 
-    
-    1. Accenture Data Analyst
-    2. sr. Data Scientist
-    3. $4+*Software Developer%&^
 
 ## Output
-
-Standard job title
-
-Examples: 
-
-1. Accenture Data Analyst =⇒ Data Analyst
-2. sr. Data Scientist =⇒ Data Scientist
-3. $4+*Software Developer%&^ =⇒ Software Developer
+- Standard job title
 
 ![Untitled (1)](https://user-images.githubusercontent.com/101692969/233233518-94333135-471a-41d2-8cb8-0a0c1cdeb669.png)
 
-## High level Information
+## Postman API
 
 ![Untitled (2)](https://user-images.githubusercontent.com/101692969/233233621-3ace3709-05aa-4f72-8cf3-f8804a242077.png)
 
@@ -73,8 +60,3 @@ Use a Token for authorization
 
 ![Untitled (3)](https://user-images.githubusercontent.com/101692969/233233672-ec979413-ef12-4ef1-9c0f-e4b7f9aeea18.png)
 
-## Deployment Process
-
-[Deploy Guide](https://www.notion.so/Deploy-Guide-f6b8fce6a86d4dcf86e15b08038e1e17) 
-
-## Infra
