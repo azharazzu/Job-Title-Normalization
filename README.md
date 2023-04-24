@@ -28,9 +28,6 @@ Each user have different ways of writing about the same thing, with the help of 
 
 [](https://resume-parser.resume.io/parse)
 
-## **Third party integrations**
-
-No
 
 ## Methodology
 
