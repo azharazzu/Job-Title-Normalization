@@ -49,6 +49,7 @@ No
 
 ## Output
 - Standard job title
+<img width="775" alt="Screenshot 2023-04-21 at 10 39 18 AM" src="https://user-images.githubusercontent.com/101692969/233878668-9f23c078-c673-4826-a524-ac0ebf34ed26.png">
 
 
 ## Postman API
