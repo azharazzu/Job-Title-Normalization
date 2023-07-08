@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 import torch
 import time
 import logging
-import pandas as pd
+from tqdm import tqdm
 from simpletransformers.seq2seq import (
     Seq2SeqModel,
     Seq2SeqArgs,
