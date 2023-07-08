@@ -1,4 +1,4 @@
-mport numpy as np
+import numpy as np
 import pandas as pd
 import time
 import os
@@ -40,11 +40,10 @@ model = Seq2SeqModel(
     use_cuda=False,
 )
 
-df=pd.read_csv("training_data.csv")
+df=pd.read_csv(data)
 df.dropna(inplace=True)
 df=df.sample(frac=1)
 df.reset_index(drop=True,inplace=True)
-df.head()
 
 train_df=df.iloc[:115470]
 eval_df=df.iloc[115470:]
