@@ -29,10 +29,10 @@ transformers_logger.setLevel(logging.WARNING)
 model_args = Seq2SeqArgs()
 model_args.silent=True
 
-path_1= "https://talentprofile.s3.amazonaws.com/data-science-model/checkpoint-3610-epoch-2/"
+path= "https://talentprofile.s3.amazonaws.com/data-science-model/checkpoint-3610-epoch-2/"
 model = Seq2SeqModel(
     encoder_decoder_type="bart",
-    encoder_decoder_name=path_1,
+    encoder_decoder_name=path,
     args=model_args,
     use_cuda=False,
 )
