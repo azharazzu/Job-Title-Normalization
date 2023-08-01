@@ -11,7 +11,6 @@ The job title normalization service used to convert raw job title into standard 
 - [Postman API](#Postman-API)
 - [Deployment Process](#Deployment-Process)
 
-
 ##                                                 **Application description**
 
 The job title normalization service used to convert raw job title into normalized job title which remove all unwanted(Url, Numbers, Special characters) and meaning less words from raw title and produce stander title.
